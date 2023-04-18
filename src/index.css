@@ -1,0 +1,153 @@
+body{
+    margin : 0;
+    padding : 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 2rem;
+}
+
+.free-trial-info{
+    background-color: #241c15;
+    padding : 0.1rem;
+    text-align: center;
+    width: 100vw;
+}
+
+.free-trial-info a{
+    text-decoration: none;
+    border-bottom: 0.1rem dotted white ;
+    color: white;
+}
+
+.free-trial-info p{
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    height: 5rem;
+}
+
+.nav-right{
+    display: flex;
+}
+
+nav p{
+    color: black;
+}
+
+nav a:hover{
+    color: blue;
+    border-bottom: 0.1rem solid rgb(29, 163, 230);
+}
+
+.button_nav{
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    font-size: 1rem;
+    background-color: white;
+    border: 0.1rem solid black;
+    border-radius: 1000rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    transition: all 0.1s;
+}
+
+.button_nav:hover{
+    border-bottom: 0.5rem solid black;
+}
+
+.free-trial{
+    background-color: #ffe01b;
+}
+
+nav ul a{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/*  */
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.middle h1{
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.middle p{
+    max-width: 60rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.functions{
+    display: flex;
+    height: 15rem;
+    margin-top: 3rem;
+    background-size: cover;
+}
+
+.functions a{
+    padding: 1rem;
+    height: auto;
+}
+
+.inner1{
+    height: 10rem;
+}
+
+.f1{
+    background: url("https://eep.io/images/yzco4xsimv0y/33f3mgIWbzKjIpIRJi2f5v/6bd36bba38b7f6a94d587605ab9a7d75/Desktop_Feature_Cards_1_Automations.jpeg?w=630&fm=webp&q=70");
+    height: 10rem;
+    background-size: cover;
+}
+
+.f2{
+    background: url("https://eep.io/images/yzco4xsimv0y/hBcOt3RZ5DOhMJD2Hi2Z2/96b28d17c45e9376731ad825b002b0ff/Desktop_Feature_Cards_2_Analytics.png?w=630&fm=webp&q=70");
+    height: 10rem;
+    background-size: cover;
+}
+
+.f3{
+    background: url("https://eep.io/images/yzco4xsimv0y/hBcOt3RZ5DOhMJD2Hi2Z2/96b28d17c45e9376731ad825b002b0ff/Desktop_Feature_Cards_2_Analytics.png?w=630&fm=webp&q=70");
+    height: 10rem;
+    background-size: cover;
+}
+
+.f4{
+    background: url("https://eep.io/images/yzco4xsimv0y/hBcOt3RZ5DOhMJD2Hi2Z2/96b28d17c45e9376731ad825b002b0ff/Desktop_Feature_Cards_2_Analytics.png?w=630&fm=webp&q=70");
+    height: 20rem;
+    background-size: cover;
+}
+
+.functions .func-outer{
+    flex: 1;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+}
